@@ -1,0 +1,52 @@
+● -D => Dev dependency
+
+● npm init
+
+package name: (namaste_react) 
+version: (1.0.0) 
+description: This id namaste react course
+entry point: (App.js) 
+test command: jest
+git repository: https://github.com/Trishita12345/Namaste_React.git
+keywords: 
+author: Trishita
+license: (ISC) 
+About to write to /Users/trishitamajumder/Documents/Coding/Namaste React assignments/Namaste_React/package.json:
+
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "This id namaste react course",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trishita12345/Namaste_React.git"
+  },
+  "author": "Trishita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trishita12345/Namaste_React/issues"
+  },
+  "homepage": "https://github.com/Trishita12345/Namaste_React#readme"
+}
+
+
+Is this OK? (yes) 
+
+● npm i react
+● npm i -D parcel
+● npm i react-dom
+● npx parcel index.html - dev build
+● npx parcel build index.html - prod build 
+
+● Parcel
+----------
+
+1. Watcher
+2. HMR - Hot module reload
+3. Create build and gives a local server
+4. cache the previous builds to optimize next build time
+5. Tree shaking algorith for removing dead code in the final bundle
